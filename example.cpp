@@ -1245,7 +1245,7 @@ void example51(){
 	s_greater.insert(40);
 
 	set<int, less<int> >::key_compare l_cmp = s_less.key_comp();
-	cout << l_cmp(10, 20) << endl; // 10 < 20 연산
+	cout << l_cmp(10, 20) << endl; // 10 < 20 연산!!
 
 	set<int, greater<int> >::key_compare g_cmp = s_greater.key_comp();
 	cout << g_cmp(10, 20) << endl; // 10 > 20 연산!!
